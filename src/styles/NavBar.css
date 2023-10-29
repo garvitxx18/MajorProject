@@ -1,0 +1,14 @@
+.nav-link-space {
+  margin-left: 14px; /* Adjust the value to control the spacing */
+}
+.NavBar-Block {
+  height: 90px;
+  background-color: #18191b;
+}
+.custom-bg-color {
+  background-color: #18191b; /* Replace with your desired color code */
+}
+.nav-link-space-about-us {
+  margin-left: 14px; /* Adjust the value to control the spacing */
+  margin-right: 12px;
+}
