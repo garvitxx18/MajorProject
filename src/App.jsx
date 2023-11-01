@@ -14,6 +14,7 @@ import Dilithium from "./components/Dilithium";
 import Sphincs from "./components/Sphincs";
 import KyberCode from "./components/KyberCode";
 import Library from "./components/Library";
+import CodeBox from "./components/CodeBox";
 
 function App() {
   const kyber = useRef(null);
@@ -43,6 +44,7 @@ function App() {
       <Kyber kyber={kyber} />
       <KyberCode />
       <Library />
+      {/* <CodeBox /> */}
       <Falcon falcon={falcon} />
       <Dilithium dilithium={dilithium} />
       <Sphincs sphincs={sphincs} />

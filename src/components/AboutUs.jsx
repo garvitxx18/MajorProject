@@ -8,15 +8,34 @@ import Anirudh from "../assets/Anirudh2.png";
 
 const AboutUs = ({ about }) => {
   const ProfileData = [
-    { name: "Garvit Prasad", Info: "", Img: "Garvit", ImgTag: Garvit },
-    { name: "Harsh Pandey", Info: "", Img: "Harsh", ImgTag: Harsh },
-    { name: "Anirudh Yadav", Info: "", Img: "Anirudh", ImgTag: Anirudh },
+    {
+      name: "Garvit Prasad",
+      Info: "",
+      Img: "Garvit",
+      ImgTag: Garvit,
+      link: "https://www.linkedin.com/in/garvit-prasad-9a351620a/",
+    },
+    {
+      name: "Harsh Pandey",
+      Info: "",
+      Img: "Harsh",
+      ImgTag: Harsh,
+      link: "https://www.linkedin.com/in/harsh-pandey-830148211/",
+    },
+    {
+      name: "Anirudh Yadav",
+      Info: "",
+      Img: "Anirudh",
+      ImgTag: Anirudh,
+      link: "https://www.linkedin.com/in/anirudh-yadav-583825202/",
+    },
   ];
   const MentorProfile = {
     name: "Mr. Chandra Prakash Singar",
     Info: "",
     Img: "Chandra Prakash",
     ImgTag: CPsir,
+    link: "https://www.sgsits.ac.in/index.php/it-faculty-members/411-mr-chandra-prakash-singar",
   };
   return (
     <div ref={about} className="About-Us-Main-Div">

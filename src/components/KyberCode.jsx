@@ -4,6 +4,7 @@ import { atomDark } from "react-syntax-highlighter/dist/esm/styles/prism";
 import generate_key from "../LibraryCode/generate_key.js";
 import encrypt from "../LibraryCode/encrypt.js";
 import decrypt from "../LibraryCode/decrypt.js";
+import CodeBox from "./CodeBox.jsx";
 
 const KyberCode = () => {
   console.log(generate_key);
@@ -12,6 +13,8 @@ const KyberCode = () => {
       <p className="Main-Heading">
         <center>Implementation of Kyber</center>
       </p>
+      <p className="Secondary-Heading">Let's try it out</p>
+      <CodeBox />
       <p className="Secondary-Heading">Key Generation</p>
       <p className="Paragraph">
         The private key of a Kyber key pair consists of a vector of "small"

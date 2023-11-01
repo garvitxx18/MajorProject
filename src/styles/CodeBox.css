@@ -1,0 +1,36 @@
+.dropDown--box {
+  width: 80%;
+}
+.codeBox {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.dropDown--box {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.MainBox-CodeBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.headline--div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.highlight--text {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: rgb(59, 113, 201);
+  font-weight: 700;
+}

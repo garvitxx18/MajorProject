@@ -9,6 +9,9 @@ const ProfileCard = (props) => {
   console.log(props.props.Img);
   let Image = props.props.Img;
   console.log(Image);
+  const redirect = () => {
+    window.location.href = props.props.link;
+  };
   return (
     <Card style={{ width: "18rem", height: "35rem" }}>
       <Card.Img variant="top" src={props.props.ImgTag} />
@@ -18,7 +21,9 @@ const ProfileCard = (props) => {
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="primary">{"Meet " + props.props.Img}</Button>
+        <Button onClick={redirect} variant="primary">
+          {"Meet " + props.props.Img}
+        </Button>
       </Card.Body>
     </Card>
   );
